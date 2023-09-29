@@ -40,7 +40,7 @@
     text-decoration: none;
     font-size: 20px;
     color: #ffffff;
-    transition: 0.5s;
+    transition: 0.7s;
   }
   
   .navbar a:hover {
@@ -126,6 +126,16 @@
     }
     
   }
+  .blue
+  {
+    color: aqua;
+    transition: 1s;
+  }
+  .blue:hover{
+     color:rgb(55, 168, 255);
+     text-shadow: 0.5px 0.5px #ffffff;
+     font-size: 100px;
+    }
 .fpage{
     color: white;
     height: flex;
@@ -147,7 +157,12 @@
     height: 350px;
     width: 350px;
     text-align: center;
-
+    transition: 0.5s;
+}
+.fpage img:hover{
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
 }
 
   
