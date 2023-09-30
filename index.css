@@ -175,7 +175,6 @@
   align-items: center;
 } 
  .spage h1{
-  filter: blur(0px);
   text-align: center;
   font-size: 50px;
  } 
@@ -191,4 +190,24 @@
 .spage pre:hover{
   box-shadow: 10px 10px #d0ff25;
   outline: none;
+}
+
+.tpage{
+  color: white;
+  height: flex;
+  width: flex;
+  margin:0%;
+  align-items: center;
+} 
+.tpage h1{
+ text-align: center;
+ font-size: 50px;
+} 
+.tpage a{
+  color: white;
+  text-decoration: none;
+}
+.tpage a:hover{
+  color: #130f83;
+  
 }
