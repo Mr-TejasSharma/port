@@ -234,6 +234,7 @@
 }
 form>input,textarea{
   box-shadow: 10px 10px #130f83;
+  border-radius: 25%;
   width: 35vw;
   max-width: 35vw;
   min-width: 35vw;
@@ -273,4 +274,7 @@ button{
 }
 button:hover{
   color: white;
+}
+.last{
+  margin-top: 2rem;
 }
